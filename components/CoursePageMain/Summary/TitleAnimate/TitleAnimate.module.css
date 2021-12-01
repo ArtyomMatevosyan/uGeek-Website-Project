@@ -1,0 +1,14 @@
+.title{
+    width: 600px;
+    height: 85px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #54187D;
+    position: relative;
+    top: 0px;
+    transition: top .4s linear;
+}

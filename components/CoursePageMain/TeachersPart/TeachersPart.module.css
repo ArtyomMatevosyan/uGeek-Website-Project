@@ -1,0 +1,13 @@
+.teachersPart {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 100px auto 0 auto;
+}
+
+@media screen and (max-width:400px) {
+    .teachersPart {
+        width: 100%;
+    }
+}

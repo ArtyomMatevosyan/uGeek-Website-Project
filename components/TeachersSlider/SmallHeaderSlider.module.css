@@ -1,0 +1,189 @@
+  .Slider-Container {
+    min-height: 1px;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    margin: 10px auto;
+    box-sizing: border-box;
+  }
+
+  .Slider-Content {
+    position: relative;
+    left: 30px;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    width: 400px;
+    height: 400px;
+  }
+
+  .Controls {
+    position: absolute;
+    height: 0;
+    margin-top: -30px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    top: 42px;
+    left: 20px;
+  }
+
+  .Arrow {
+    position: absolute;
+    z-index: 1010;
+    font-size: 4em;
+    line-height: 60px;
+    color: #333;
+    user-select: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+  }
+
+  .Arrow--prev {
+    left: 10px;
+    text-align: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px 0 0 5px;
+    background: #F49A0D;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Arrow--next {
+    right: 10px;
+    text-align: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Slide {
+    position: absolute;
+    opacity: 1;
+    visibility: visible;
+    overflow: hidden;
+    top: -80px;
+    border-radius: 5px;
+    background-size: cover;
+    background-color: #ccc;
+    display: block;
+    margin: 0;
+    box-sizing: border-box;
+    width: 300px;
+    height: 380px;
+    transition: transform 500ms;
+  }
+
+  .Slide--current {
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 999;
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (max-width:1024px) {
+    .Slide {
+      width: 260px;
+      height: 320px;
+    }
+    .Slider-Content {
+      width: 390px;
+      height: 415px;
+      top: 30px;
+    }
+    .Controls {
+      top: 70px;
+    }
+  }
+
+  @media screen and (max-width:910px) {
+    .Slide {
+      width: 240px;
+      height: 295px;
+    }
+    .Slider-Content {
+      width: 370px;
+      height: 360px;
+      top: 0px;
+    }
+    .Controls {
+      top: 41px;
+    }
+  }
+
+  @media screen and (max-width: 830px) {
+    .Slider-Container {
+      margin-left: -27px;
+    }
+  }
+
+  @media screen and (max-width: 695px) {
+    .Slider-Container {
+      top: -55px;
+      left: 145px;
+      margin-left: 0;
+    }
+    .Slider-Content {
+      width: 235px;
+      left: 0;
+    }
+    .Slide {
+      width: 245px;
+      height: 280px;
+    }
+    .Controls {
+      left: -2px
+    }
+  }
+
+  @media screen and (max-width: 587px) {
+    .Slider-Container {
+      left: 115px;
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .Slider-Container {
+      left: 90px;
+    }
+    .Slider-Content{
+      perspective: 770px;
+    }
+  }
+  @media screen and (max-width:470px){
+    .Slider-Container {
+      left: 70px;
+    }
+  }
+  @media screen and (max-width:425px){
+    .Slider-Container {
+      left: 60px;
+    }
+    .Slider-Content{
+      perspective: 570px;
+    }
+    .Controls{
+      left: 173px;
+      top: 270px;
+    }
+    .Slide {
+      width: 245px;
+      height: 250px;
+      transition: none;
+    }
+  }

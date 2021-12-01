@@ -1,0 +1,42 @@
+.best{
+    color:#54187D;
+    position: absolute;
+    top: 0;
+    left: 90px;
+}
+.react-reveal{
+    margin-left: -20px;
+}
+@media screen and (max-width: 1220px){
+    .best{
+        right: 50px;
+        left: 75px;
+    }
+}
+@media screen and (max-width: 1160px){
+    .best{
+        left: 70px;
+    }
+    .bounce{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .best{
+        left: 70px;
+    }
+}
+@media screen and (max-width: 820px){
+    .best{
+        left: 52px;
+        top: 7px;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 27px;
+    }
+}
+@media screen and (max-width: 680px){
+    .best{
+        left: 46px;
+    }
+}

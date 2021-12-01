@@ -1,0 +1,247 @@
+.experiencePart{
+    width: 650px;
+    height: 390px;
+    margin-right: 50px;
+}
+.experiencies{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color:  #FAF4FF;
+}
+.year{
+    width: 150px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+.lessons{
+    width: 150px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 250px;
+}
+.graduates{
+    width: 150px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    background-color: #fff;
+}
+.experienceP{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.number{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 75px;
+    text-align: center;
+    color: #54187D;
+    font-family: sans-serif;
+}
+.text{
+    margin-top: -45px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #54187D;
+    font-family: sans-serif;
+}
+.lessonsQuantity{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #54187D;
+}
+.lessonNumberDiv{
+    margin-top: 35px;
+}
+
+@media screen and (max-width: 1220px){
+    .img{
+        width: 130px;
+        height: 130px;
+    }
+    .number{
+        font-size: 54px;
+    }
+    .text{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1120px){
+    .img{
+        width: 110px;
+        height: 110px;
+    }
+    
+}
+@media screen and (max-width: 1024px){
+    .experiencePart{
+        width: 450px;
+        height: 390px;
+        margin-right: 50px;
+    }
+    .lessons{
+        left: 150px;
+    }
+    .img{
+        width: 85px;
+        height: 85px;
+    }
+    .img img{
+        width: 60px;
+        height: 60px;
+    }
+    .text{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .number{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .experienceP{
+        height: 115px;
+    }
+}
+@media screen and (max-width: 768px){
+    .experiencePart{
+        width: 350px;
+        height: 300px;
+        margin-top: 0px;
+    }
+    .lessonNumberDiv{
+        margin-top: 50px;
+    }
+    .lessons{
+        left: 100px;
+    }
+    .img{
+        width: 70px;
+        height: 70px;
+    }
+    .img img{
+        width: 35px;
+        height: 35px;
+    }
+    .text{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+        padding: 30px;
+
+    }
+    .number{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .experienceP{
+        height: 100px;
+    }
+
+    .year, .lessons, .graduates{
+        height: 260px;
+    }
+
+    .lessonNumberDiv{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .experiencePart{
+        width: 380px;
+        height: 285px;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+    }
+    .lessons{
+        left: 115px;
+    }
+    .text{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .number{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .experienceP{
+        height: 60px;
+        margin-top: 15px;
+    }
+
+    .year, .lessons, .graduates{
+        height: 180px;
+        margin-top: 38px;
+    }
+    .lessonNumberDiv{
+        margin-top: 19px;
+    }
+}
+@media screen and (max-width: 440px){
+    .experiencePart{
+        left: 21px;
+    }
+}
+@media screen and (max-width: 400px){
+    .experiencePart{
+        left: -5px;
+    }
+}
+@media screen and (max-width: 360px){
+    .experiencePart{
+        left: -20px;
+    }
+}
+@media screen and (max-width: 335px){
+    .experiencePart{
+        width: 360px;
+    }
+    .lessons{
+        left: 105px;
+    }
+}
+@media screen and (max-width: 320px){
+    .experiencePart{
+        left: -25px;
+    }
+}
+

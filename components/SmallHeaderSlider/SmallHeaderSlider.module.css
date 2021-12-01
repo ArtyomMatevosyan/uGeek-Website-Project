@@ -1,0 +1,78 @@
+
+  .Slider-Container {
+    min-height: 1px;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    margin: 10px auto;
+    box-sizing: border-box;
+  }
+  
+  .Slider-Content {
+    position: relative;
+    left: 30px;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+  
+  .Controls {
+    position: absolute;
+    top: 50%;
+    height: 0;
+    margin-top: -30px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .Arrow {
+    position: absolute;
+    z-index: 1010;
+    font-size: 4em;
+    line-height: 60px;
+    color: #333;
+    user-select: none;
+    text-decoration: none;
+    top: 0;
+  
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .Arrow--prev {
+    left: 10px;
+    text-align: left;
+  }
+  
+  .Arrow--next {
+    right: 10px;
+    text-align: right;
+  }
+  
+  .Slide {
+    position: absolute;
+    opacity: 1;
+    visibility: visible;
+    overflow: hidden;
+    top: 0;
+    border-radius: 5px;
+    background-size: cover;
+    background-color: #ccc;
+    display: block;
+    margin: 0;
+    box-sizing: border-box;
+    width: 140px;
+    height: 112px;
+    transition: transform 500ms;
+  }
+  
+  .Slide--current {
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 999;
+  }
+  

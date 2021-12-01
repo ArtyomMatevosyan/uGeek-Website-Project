@@ -1,0 +1,144 @@
+.lessons {
+    position: relative;
+}
+
+.eclips {
+    position: absolute;
+    top: -39%;
+    right: 0;
+}
+
+.eclips2 {
+    position: absolute;
+    top: -30%;
+    right: 0;
+}
+
+.slideDiv {
+    margin-top: 25px;
+    height: 500px;
+}
+
+.transparentDiv {
+    width: 100px;
+    height: 70%;
+    position: absolute;
+    right: 0;
+    top: 120px;
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+@media screen and (max-width:1220px) {
+    .eclips, .eclips2 {
+        width: 65px;
+        height: 200px;
+    }
+    .eclips img, .eclips2 img {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .eclips, .eclips2 {
+        width: 50px;
+    }
+    .eclips2 {
+        top: -33%;
+    }
+    .eclips img, .eclips2 img {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .eclips {
+        top: -29%;
+    }
+    .eclips2 {
+        top: -22%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .eclips, .eclips2 {
+        width: 40px;
+    }
+    .eclips {
+        top: -46%
+    }
+    .eclips2 {
+        top: -37%;
+    }
+    .eclips img, .eclips2 img {
+        height: 110px;
+    }
+    .slideDiv {
+        height: 270px;
+        margin-bottom: 100px;
+    }
+    .transparentDiv {
+        width: 80px;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .eclips {
+        top: -60%;
+    }
+    .eclips2 {
+        top: -47%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .eclips {
+        top: -35%;
+    }
+    .eclips2 {
+        top: -23%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .lessonDiv {
+        overflow: hidden;
+        height: 100px;
+    }
+    .eclips, .eclips2 {
+        width: 20px;
+    }
+    .eclips {
+        top: -40%;
+    }
+    .eclips2 {
+        top: -28%;
+    }
+    .eclips img, .eclips2 img {
+        height: 63px;
+    }
+    .transparentDiv {
+        display: none;
+    }
+    .slideDiv {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .eclips {
+        top: -37%;
+    }
+    .eclips2 {
+        top: -27%
+    }
+}
+
+@media screen and (max-width:320px) {
+    .eclips {
+        top: -32%;
+    }
+    .eclips2 {
+        top: -22%
+    }
+}

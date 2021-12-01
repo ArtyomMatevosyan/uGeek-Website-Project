@@ -1,0 +1,399 @@
+.coursesWhyUs {
+  width: 100%;
+}
+
+.whyus {
+  max-width: 1200px;
+  height: 355px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstDiv {
+  width: 315px;
+  height: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #54187D;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.firstDivText {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.secondDiv {
+  width: 315px;
+  height: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  left: 295px;
+  top: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 1px solid #54187D;
+  box-sizing: border-box;
+}
+
+.secondDivText {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #54187D;
+}
+
+.thirdDiv {
+  width: 315px;
+  height: 315px;
+  background-color: #54187D;
+  position: absolute;
+  left: 590px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 1px solid #54187D;
+  box-sizing: border-box;
+}
+
+.thirdDivText {
+  width: 270px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 15px;
+}
+
+.borderDiv {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #FFFFFF;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.inovation {
+  width: 152px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 23px;
+  margin-left: 23px;
+}
+
+.name {
+  margin-left: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #F49A0D;
+  font-family: sans-serif;
+}
+
+.text {
+  margin-top: 46px;
+  margin-left: 15px;
+  width: 270px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: sans-serif;
+}
+
+.fourthDiv {
+  width: 315px;
+  height: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  left: 885px;
+  top: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 1px solid #54187D;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1220px) {
+  .whyus {
+    margin-left: 5px;
+  }
+  .firstDiv {
+    width: 265px;
+    height: 265px;
+    margin-left: 70px;
+  }
+  .firstDivText {
+    font-size: 16px;
+  }
+  .secondDiv {
+    width: 265px;
+    height: 265px;
+    left: 325px;
+  }
+  .secondDivText {
+    font-size: 16px;
+  }
+  .thirdDiv {
+    width: 265px;
+    height: 265px;
+    left: 580px;
+  }
+  .thirdDivText {
+    width: 250px;
+    font-size: 16px;
+  }
+  .fourthDiv {
+    width: 265px;
+    height: 265px;
+    left: 835px;
+  }
+  .borderDiv {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width:1104px) {
+  .firstDiv {
+    width: 225px;
+    height: 225px;
+    margin-left: 90px;
+  }
+  .firstDivText, .secondDivText {
+    font-size: 14px;
+  }
+  .secondDiv {
+    width: 225px;
+    height: 225px;
+    left: 300px;
+  }
+  .thirdDiv {
+    width: 225px;
+    height: 225px;
+    left: 520px;
+  }
+  .thirdDivText {
+    width: 200px;
+    font-size: 14px;
+  }
+  .fourthDiv {
+    width: 225px;
+    height: 225px;
+    left: 735px;
+  }
+  .borderDiv {
+    width: 210px;
+    height: 210px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .whyus {
+    height: 300px;
+    margin-left: 100px;
+  }
+  .firstDiv {
+    width: 175px;
+    height: 175px;
+    margin-left: 70px;
+  }
+  .secondDiv {
+    width: 175px;
+    height: 175px;
+    left: 235px;
+  }
+  .thirdDiv {
+    width: 175px;
+    height: 175px;
+    left: 400px;
+  }
+  .thirdDivText {
+    padding-top: 0;
+  }
+  .fourthDiv {
+    width: 175px;
+    height: 175px;
+    left: 565px;
+  }
+  .borderDiv {
+    width: 160px;
+    height: 160px;
+  }
+  .firstDiv img, .secondDiv img, .thirdDiv img, .fourthDiv img {
+    width: 45px;
+    height: 45px;
+  }
+  .firstDiv p, .secondDiv p, .thirdDiv p, .fourthDiv p {
+    font-size: 12px;
+    line-height: 14px;
+    width: 155px;
+  }
+}
+@media screen and (max-width:910px){
+  .whyus{
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width:810px){
+  .whyus{
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width:768px){
+  .whyus{
+    margin-left: -25px;
+  }
+}
+@media screen and (max-width:720px) {
+  .whyus {
+    height: 230px;
+    margin-left: 20px;
+    margin-top: 90px;
+  }
+  .firstDiv {
+    width: 140px;
+    height: 140px;
+    margin-left: 70px;
+  }
+  .secondDiv {
+    width: 140px;
+    height: 140px;
+    left: 190px;
+  }
+  .thirdDiv {
+    width: 140px;
+    height: 140px;
+    left: 312px;
+  }
+  .thirdDivText {
+    padding-top: 0;
+  }
+  .fourthDiv {
+    width: 140px;
+    height: 140px;
+    left: 435px;
+  }
+  .borderDiv {
+    width: 125px;
+    height: 125px;
+  }
+  .firstDiv img, .secondDiv img, .fourthDiv img {
+    width: 35px;
+    height: 35px;
+  }
+  .thirdDiv img{
+    width: 25px;
+    height: 25px;
+  }
+
+  .firstDiv p, .secondDiv p, .thirdDiv p, .fourthDiv p {
+    font-size: 12px;
+    line-height: 13px;
+    width: 115px;
+  }
+  .thirdDiv p{
+    margin-top: 2px;
+  }
+  .thirdDiv img {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width:630px) {
+  .whyus {
+    margin-left: -10px;
+  }
+}
+
+@media screen and (max-width:570px) {
+  .whyus {
+    margin-left: -40px;
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width:530px) {
+  .firstDiv {
+    margin-left: 130px;
+  }
+  .secondDiv {
+    left: 292px;
+    top: -9px;
+  }
+  .thirdDiv {
+    top: 158px;
+    left: 292px;
+  }
+  .fourthDiv {
+    left: 130px;
+    top: 150px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .whyus {
+    margin-left: -70px;
+    margin-top: 55px;
+  }
+}
+@media screen and (max-width:375px) {
+  .whyus {
+    margin-left: -100px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width:325px) {
+  .whyus {
+    margin-left: -106px;
+  }
+  .secondDiv, .thirdDiv{
+    left: 273px;
+  }
+}

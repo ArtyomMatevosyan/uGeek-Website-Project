@@ -1,0 +1,31 @@
+.lessonSlide {
+    width: auto;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+.lessonSlide::-webkit-scrollbar {
+    display: scroll;
+}
+.lessonSlide::-webkit-scrollbar {
+    width: 10px;
+}
+.lessonSlide::-webkit-scrollbar-thumb {
+    background-color: #2F0D46;
+    border-radius: 20px;
+}
+.shadowDIv{
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    z-index: 15;
+    right: 0;
+    top: 0;
+}
+@media screen and (max-width: 425px){
+    .shadowDIv{
+        display: none;
+    }
+}

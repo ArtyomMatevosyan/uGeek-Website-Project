@@ -1,0 +1,13 @@
+{
+    "locales": [
+        "en",
+        "am",
+        "ru"
+    ],
+    "defaultLocale": "en",
+    "pages": {
+        "*": ["common"],
+        "/courses": ["courses"],
+        "/teachers": ["teachers"]
+    }
+}

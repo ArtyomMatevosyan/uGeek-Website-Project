@@ -1,0 +1,77 @@
+{
+    "courses": "կուրսեր",
+    "ourStudents": "մեր ուսանողները",
+    "ourTeachers": "մեր ուսուցիչները",
+    "search": "որոնել",
+    "headerSliderTransformText": "Մեր ուսանօղների հաջողությունները",
+    "upcomingLessons": {
+        "title": "ֆֆֆ ֆֆֆ ֆֆֆ ֆֆֆ",
+        "subTitle": "ֆֆֆ ֆֆֆ ֆֆֆ ֆֆֆ"
+    },
+    "lessonCard": {
+        "duration": "ֆֆֆ",
+        "month": "ֆֆֆ",
+        "price": "ֆֆֆ",
+        "register": "ֆֆֆ",
+        "courseFor": "ֆֆֆ ֆֆֆ",
+        "level": {
+            "senior": "ֆֆֆ",
+            "middle": "ֆֆֆ",
+            "begginer": "ֆֆֆ"
+        }
+    },
+    "aboutCompany": {
+        "title": "ֆֆֆ",
+        "titleText": "ֆֆֆ",
+        "subTitle": "ֆֆֆ",
+        "subTitleText": "ֆֆֆ",
+        "rightSideText": {
+            "part1": "ֆֆֆ",
+            "part2": " ֆֆֆ ֆֆֆ"
+        }
+    },
+    "whyUs": {
+        "title": " ֆֆֆ ֆֆֆ",
+        "subTitle": " ֆֆֆ ֆֆֆ",
+        "content": {
+            "thirdCard": {
+                "front": {
+                    "title": "ֆֆֆ ֆֆֆ",
+                    "text": " ֆֆֆ ֆֆֆ"
+                },
+                "back": {
+                    "title": "ֆֆֆ ֆֆֆ",
+                    "text": ""
+                }
+            }
+        }
+    },
+    "experience": {
+        "experiencePart": {
+            "first": "ֆֆֆ ֆֆֆ",
+            "second": {
+                "part1": "ֆֆֆ ֆֆֆ",
+                "part2": "ֆֆֆ ֆֆֆ"
+            },
+            "third": "ֆֆֆ ֆֆֆ"
+        },
+        "choosenPart": {
+            "title": "ֆֆֆ ֆֆֆ"
+        }
+    },
+    "teachers": {
+        "title": "ֆֆֆ ֆֆֆ",
+        "subTitle": "ֆֆֆ ֆֆֆ",
+        "rightPartText": "ֆֆֆ ֆֆֆ"
+    },
+    "recomandations": {
+        "title": "ֆֆֆ ֆֆֆ",
+        "subTitle": "ֆֆֆ ֆֆֆ"
+    },
+    "footer": {
+        "gallery": "ֆֆֆ ֆֆֆ",
+        "followUs": "ֆֆֆ ֆֆֆ",
+        "map": "ֆֆֆ ֆֆֆ"
+    },
+    "allCourses": "ֆֆֆֆֆ"
+}

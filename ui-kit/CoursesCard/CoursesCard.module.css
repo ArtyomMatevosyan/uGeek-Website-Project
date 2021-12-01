@@ -1,0 +1,286 @@
+.card {
+    width: 243px;
+    height: 312px;
+    background-color: #FAF4FF;
+    position: relative;
+    z-index: 15;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: 0px 2px 3px rgba(47, 13, 70, 0.5);
+    transition: all 0.2s linear;
+}
+.card:hover{
+    transform: scale(1.18);
+}
+.card:hover .lesson_info {
+    display: none;
+}
+.lesson_sub_info {
+    display: none;
+    width: 181px;
+    height: 112px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #2F0D46;
+    position: absolute;
+    bottom: 75px;
+    margin-left: 32px;
+}
+
+.hoverDiv {
+    opacity: 0;
+    width: 148px;
+    height: 165px;
+    background-color: #D7D3FF;
+    border-radius: 10px;
+    position: absolute;
+    right: -50px;
+    top: -50px;
+    z-index: -1;
+    transition: opacity 0.2s linear;
+}
+
+.card:hover .lesson_sub_info {
+    display: block;
+}
+
+.cardContainer {
+    margin-left: 70px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.cardContainer:hover .hoverDiv {
+    opacity: 1;
+}
+
+.share {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+}
+.shareImg {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.lessonType {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    left: 18px;
+    z-index: 10;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ 
+}
+.lessonImg {
+    width: 30px;
+    height: 30px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+.arrow {
+    width: 192px;
+    border: 1px solid #614970;
+    position: absolute;
+    top: 75px;
+    right: 25px;
+}
+.title1 {
+    width: 150px;
+    height: 15px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #2F0D46;
+    position: absolute;
+    top: 60px;
+    left: 68px;
+}
+.title2 {
+    width: 150px;
+    height: 15px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #2F0D46;
+    position: absolute;
+    top: 76px;
+    left: 68px;
+}
+
+.year {
+    position: absolute;
+    bottom: 10px;
+    left: 108px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #2F0D46;
+}
+@media screen and (max-width:768px){
+    .card{
+        width: 180px;
+        height: 250px;
+        border-radius: 20px;
+    }
+    .share {
+        width: 17px;
+        height: 17px;
+        left: 148px;
+    }
+    .share img {
+        width: 17px;
+        height: 17px;
+    }
+    .lessonType{
+        height: 40px;
+        width: 40px;
+        top: 30px;
+        left: 18px;
+    }
+    .lessonImg{
+        width: 25px;
+        height: 25px;
+    }
+    .arrow {
+        width: 125px;
+        top: 50px;
+    }
+    .title1{
+        top: 38px;
+        left: 30px;
+        font-size: 10px;
+        line-height: 12px;  
+    }
+    .title2{
+        top: 53px;
+        left: 31px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .year{
+        left: 78px;
+    }
+    .lesson_sub_info{
+            width: 161px;
+            height: 112px;
+            font-size: 11px;
+            line-height: 13px;
+            bottom: 55px;
+            margin-left: 10px;
+    }
+    .hoverDiv {
+        width: 138px;
+        height: 145px;
+        border-radius: 10px;
+        right: -45px;
+        top: -50px;
+    }
+}
+@media screen and (max-width:425px){
+    .cardContainer{
+        margin-right: -30px;
+        margin-top: 30px;
+    }
+    .card{
+        width: 110px;
+        height: 140px;
+        border-radius: 10px;
+    }
+    .share {
+        width: 10px;
+        height: 10px;
+        left: 93px;
+        top: 8px;
+    }
+    .share img {
+        width: 10px;
+        height: 10px;
+    }
+    .lessonType{
+        height: 30px;
+        width: 30px;
+        top: 17px;
+        left: 10px;
+    }
+    .lessonImg{
+        width: 20px;
+        height: 20px;
+    }
+    .arrow {
+        width: 75px;
+        top: 32px;
+        left: 23px;
+    }
+    .title1{
+        top: 24px;
+        left: -7px;
+        font-size: 7px;
+        line-height: 8px;  
+    }
+    .title2{
+        top: 34px;
+        left: -7px;
+        font-size: 7px;
+        line-height: 8px; 
+    }
+    .year{
+        left: 47px;
+        font-size: 7px;
+        line-height: 8px;
+        bottom: 8px;
+
+    }
+    .lesson_sub_info{
+            width: 100px;
+            height: 90px;
+            font-size: 7px;
+            line-height: 8px;
+            bottom:6px;
+            margin-left: 5px;
+    }
+    .hoverDiv {
+        width: 70px;
+        height: 65px;
+        border-radius: 8px;
+        right: -25px;
+        top: -27px;
+    }
+}
+@media screen and (max-width: 375px){
+    .cardContainer{
+        margin-right: -40px;
+        margin-top: 20px;
+    }
+}

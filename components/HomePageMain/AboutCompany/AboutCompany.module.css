@@ -1,0 +1,87 @@
+.aboutCompany{
+    position: relative;
+}
+.eclips{
+    position: absolute;
+}
+.eclips2{
+    position: absolute;
+    top: 56px;
+}
+.company{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .environment{
+    margin-top: 120px;
+} */
+.mission{
+    margin-left: 100px;
+}
+@media screen and (max-width:1220px){
+    .eclips, .eclips2{
+        width: 65px;
+        height: 200px;
+    }
+    .eclips img, .eclips2 img{
+        height: 200px;
+    }
+}
+@media screen and (max-width:900px){
+    .eclips, .eclips2{
+        width: 50px;
+    }
+  
+    .eclips img, .eclips2 img{
+        height: 170px;
+    }
+}
+@media screen and (max-width:768px){
+    .eclips img, .eclips2 img{
+        width: 45px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 615px){
+    .eclips{
+        top: 90px;
+    }
+    .eclips2{
+        top: 125px;
+    }
+    .aboutCompany{
+        height: 650px;
+    }
+}
+@media screen and (max-width:590px){
+    .aboutCompany{
+        margin-bottom: 150px;
+    }
+  }
+@media screen and (max-width:495px){
+    .eclips, .eclips2{
+        width: 20px;
+    }
+    .eclips{
+        top: 120px;
+        left: -10px;
+    }
+    .eclips2{
+        top: 140px;
+        left: -10px;
+    }
+    .eclips img, .eclips2 img{
+        height: 63px;
+    }
+}
+@media screen and (max-width: 410px){
+    .mission{
+        margin-left: 91px;
+    }
+}
+@media screen and (max-width: 330px){
+    .mission{
+        margin-left: 100px;
+    }
+}

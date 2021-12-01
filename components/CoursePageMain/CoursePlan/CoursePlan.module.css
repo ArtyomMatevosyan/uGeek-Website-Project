@@ -1,0 +1,153 @@
+.coursePlan{
+    width: 84%;
+    max-height: 240px;
+    transition: max-height 1s ease-out;
+    margin: 100px auto auto auto;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #E1D6E8 0%, #fff 80px, #fff 100%);
+}
+
+.coursePlan p:nth-child(5) {
+    transition: all 1.5s linear;
+    opacity: 0.3;
+}
+
+.coursePlanDiv{
+    width: 100%;
+}
+
+.arrow {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .1s linear;
+}
+
+.openArrow {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .1s linear;
+    transform: rotate(180deg);
+}
+
+.image {
+    cursor: pointer;
+}
+
+.coursePlanOpen {
+    width: 84%;
+    max-height: 5000px;
+    transition: max-height 1s ease-in;
+    margin: 100px auto auto auto;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #E1D6E8 0%, #fff 80px, #fff 100%);
+}
+
+.planText {
+    color: #54187D;
+    font-size: 20px;
+}
+
+.phaseName {
+    padding: 10px;
+    color: #F49A0D;
+    background: linear-gradient(#E1D6E8 0%, #fff 80px);
+}
+
+@media screen and (max-width:1245px){
+    .coursePlan{
+        max-height: 265px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .coursePlan{
+        max-height: 330px;
+    }
+}
+@media screen and (max-width: 768px){
+    .planText{
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 620px){
+    .planText{
+        font-size: 18px;
+    }
+    .phaseName{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .coursePlan{
+        max-height: 270px;
+        background: linear-gradient(to bottom, #E1D6E8 0%, #fff 63px, #fff 100%);
+    }
+    .coursePlanOpen{
+        background: linear-gradient(to bottom, #E1D6E8 0%, #fff 63px, #fff 100%);
+
+    }
+    .planText{
+        font-size: 15px;
+    }
+    .phaseName{
+        font-size: 21px;
+    background: linear-gradient(#E1D6E8 0%, #fff 53px);
+
+    }
+}
+@media screen and (max-width:470px){
+    .coursePlan{
+        background: linear-gradient(to bottom, #E1D6E8 11%, #fff 63px, #fff 100%);
+
+    }
+    .planText{
+        line-height: 16px;
+    }
+    .phaseName{
+        font-size: 19px;
+    background: linear-gradient(#E1D6E8 52%, #fff 53px);
+    }
+}
+@media screen and (max-width:425px){
+    .coursePlan{
+        margin-left: 35px;
+        margin-top: 50px;
+        
+    }
+    .coursePlanOpen{
+        margin-left: 35px;
+        background:linear-gradient(to bottom, #E1D6E8 1%, #fff 63px, #fff 100%)
+    }
+
+    .arrow{
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width:375px){
+    .coursePlan{
+        background: linear-gradient(to bottom, #E1D6E8 11%, #fff 50px, #fff 100%);
+
+    }
+    .phaseName{
+        font-size: 17px;
+    }
+    .planText{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:320px){
+    .coursePlan{
+        max-height: 277px;
+    }
+}

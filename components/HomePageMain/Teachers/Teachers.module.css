@@ -1,0 +1,388 @@
+.teacherComponent {
+    position: relative;
+}
+
+.eclips1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.eclips2 {
+    position: absolute;
+    right: 0;
+    top: 45px;
+}
+
+.teachers {
+    width: 85%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px auto 0 auto;
+}
+
+.teachersImg {
+    width: 430px;
+    height: 480px;
+    margin-left: 50px;
+}
+
+.teachersInfo {
+    width: 800px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.teacherName {
+    width: auto;
+    height: 43px;
+    background-color: #fff;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #54187D;
+    font-family: sans-serif;
+}
+
+.profession {
+    margin-top: 10px;
+    height: 28px;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2F0D46;
+}
+
+.education {
+    margin-top: 30px;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #54187D;
+}
+
+.title {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2F0D46;
+    margin-left: 11px;
+}
+
+.educationDivTitle {
+    display: flex;
+    align-items: center;
+}
+
+.university {
+    margin-top: 24px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2F0D46;
+    font-family: sans-serif
+}
+
+.prof {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2F0D46;
+    font-family: sans-serif;
+}
+
+.year {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2F0D46;
+    font-family: sans-serif;
+}
+
+.experience {
+    background-color: honeydew;
+    margin-top: 30px;
+}
+
+.social {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.social :last-child {
+    margin-left: 10px;
+    margin-right: 3px;
+}
+
+.social a img {
+    cursor: pointer;
+}
+
+.about {
+    width: 100%;
+    height: 68.5%;
+    background-color: #fff;
+}
+
+.aboutDivTitle {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text {
+    width: auto;
+    height: auto;
+    max-width: max-content;
+    padding: 10px;
+}
+
+.text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2F0D46;
+}
+
+@media screen and (max-width:1220px) {
+    .eclips1, .eclips2 {
+        width: 65px;
+        height: 200px;
+    }
+    .eclips1 img, .eclips2 img {
+        height: 200px;
+    }
+    .text p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .profession {
+        font-size: 21px;
+        max-height: 26px;
+        min-width: 445px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .teachersInfo {
+        width: 410px;
+        margin-left: 50px;
+    }
+    .about {
+        height: 65.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .eclips1, .eclips2 {
+        width: 50px;
+    }
+    .eclips1 img, .eclips2 img {
+        height: 170px;
+    }
+    .eclips1 {
+        top: -115px;
+    }
+    .eclips2 {
+        top: -75px;
+    }
+    .teachersInfo {
+        height: 350px;
+        width: 400px;
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+    .teacherName {
+        font-size: 29px;
+        line-height: 33px;
+    }
+    .profession {
+        margin-top: 0px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .aboutDivTitle {
+        margin-top: 15px;
+    }
+    .title {
+        font-size: 21px;
+        line-height: 23px;
+    }
+    .text {
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .social {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width:910px) {
+    .teachersInfo {
+        margin-left: 15px;
+    }
+    .teacherName {
+        height: 35px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .profession {
+        height: 20px;
+        font-size: 15px;
+        line-height: 17px;
+        margin-top: 5px;
+    }
+    .title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .text p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .about {
+        height: 53.5%;
+    }
+    .social {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .teachersInfo {
+        width: 365px;
+        margin-left: 0px;
+    }
+    .text {
+        /* max-width: 345px; */
+    }
+}
+
+@media screen and (max-width:760px) {
+    .teachersInfo {
+        max-width: 305px;
+    }
+    .teacherName {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: bold;
+    }
+    .title {
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: bold;
+    }
+    .profession {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .text p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .social :last-child {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 695px){
+   .teacherComponent{
+       height: 700px;
+   }
+   .teachersInfo{
+       position: absolute;
+       bottom: 0;
+       left: 28%;
+   }
+}
+@media screen and (max-width: 635px){
+    .teachersInfo{
+        left: 30%;
+    }
+}
+@media screen and (max-width: 587px){
+    .teachersInfo{
+        left: 27%;
+    }
+}
+@media screen and (max-width: 520px){
+    .teachersInfo{
+        left: 23%;
+    }
+}
+@media screen and (max-width:470px){
+    
+}
+@media screen and (max-width: 425px){
+    .teachersInfo{
+        left: 17%;
+    }
+    .teachers{
+        margin-top: 65px;
+    }
+    .teacherName{
+        margin-top: 10px;
+        height: 30px;
+    }
+    .profession{
+        margin-top: 0px;
+    }
+    .text{
+        padding-top: 0px;
+    }
+    .social{
+        width: 35%;
+        position: absolute;
+        top: -45px;
+        right: 220px;
+    }
+}
+@media screen and (max-width:400px){
+    .teacherComponent{
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width:375px){
+    .teacherComponent{
+        margin-left: -30px;
+    }
+    .teachers{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:355px){
+    .teacherComponent{
+        margin-left: -45px;
+    }
+}
+@media screen and (max-width:320px){
+    .teacherComponent{
+        margin-left: -55px;
+    }
+    .teachers{
+        margin-top: 40px;
+    }
+}

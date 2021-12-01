@@ -1,0 +1,21 @@
+.footherUgeekInfo{
+    height: 200px;
+    display: flex;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+@media screen and (max-width:960px){
+    .footherUgeekInfo{
+        height: 170px;
+    }
+}
+@media screen and (max-width: 540px){
+    .footherUgeekInfo{
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width: 425px){
+    .footherUgeekInfo{
+        height: 80px;
+    }
+}

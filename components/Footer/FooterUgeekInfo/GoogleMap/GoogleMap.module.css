@@ -1,0 +1,90 @@
+.googleMap{
+    height: 100%;
+    width: 33.3%;
+}
+.title{
+    margin-left: 50px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;  
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.map{
+    width: auto;
+    height: 150px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.iframe{
+    border:0;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:1220px){
+    .iframe{
+        width: 250px;
+    }
+}
+@media screen and (max-width:1024px){
+   .title, .map{
+       margin-left: 35px;
+   }
+}
+@media screen and (max-width:960px){
+    .googleMap{
+        margin-left: 130px;
+        margin-top: -19px;
+    }
+    .title{
+        font-size: 16px;
+    }
+    .iframe{
+        height: 125px;
+    }
+ }
+ @media screen and (max-width:640px){
+    .googleMap{
+        margin-left:150px
+    }
+    .title{
+        font-size: 14px;
+        min-width: 80px;
+        max-height: 15px;
+    }
+    .iframe{
+        height: 105px;
+        width: 200px;
+    }
+
+ }
+ @media screen and (max-width:540px){
+    .googleMap{
+        margin-top: 10px;
+        margin-left: 175px;
+    }
+    .title{
+        display: none;
+    }
+    .iframe{
+        height: 95px;
+        width: 140px;
+    }
+ }
+ @media screen and (max-width:425px){
+    .googleMap{
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+    .title{
+        display: none;
+    }
+    .iframe{
+        height: 75px;
+        width: 110px;
+    }
+ }

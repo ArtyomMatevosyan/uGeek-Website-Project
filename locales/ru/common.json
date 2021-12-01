@@ -1,0 +1,77 @@
+{
+    "courses": "courses",
+    "ourStudents": "our students",
+    "ourTeachers": "our teachers",
+    "search": "search",
+    "headerSliderTransformText": "Success for our students",
+    "upcomingLessons": {
+        "title": "Take your first step into the big programming!",
+        "subTitle": "Upcoming Lessons"
+    },
+    "lessonCard": {
+        "duration": "Duration",
+        "month": "Month",
+        "price": "Price",
+        "register": "register now",
+        "courseFor": "Course for",
+        "level": {
+            "senior": "seniors",
+            "middle": "middles",
+            "begginer": "begginer"
+        }
+    },
+    "aboutCompany": {
+        "title": "About Company",
+        "titleText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum amet ac placerat nibh mauris, scelerisque massa, semper ut. Suspendisse purus vestibulum ac viverra suspendisse auctor imperdiet. Risus volutpat ornare posuere amet rutrum tempus dolor. Fringilla ultrices orci nulla eget orci sit pellentesque risu",
+        "subTitle": "Our Mission",
+        "subTitleText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum amet ac placerat nibh mauris, scelerisque massa, semper ut. Suspendisse purus vestibulum ac viverra suspendisse auctor imperdiet. Risus volutpat ornare posuere amet rutrum tempus dolor. Fringilla ultrices orci nulla eget orc i sit pellentesque risu",
+        "rightSideText": {
+            "part1": "BEST",
+            "part2": " LEARNING ENVIRONMENT"
+        }
+    },
+    "whyUs": {
+        "title": "Take your first step into the big and exciting world of programming!",
+        "subTitle": "Why Us",
+        "content": {
+            "thirdCard": {
+                "front": {
+                    "title": "Creativy",
+                    "text": " One of our principal ideas is to make our students convert challenges into opportunities and invest that skill in programming experience"
+                },
+                "back": {
+                    "title": "Hello world",
+                    "text": ""
+                }
+            }
+        }
+    },
+    "experience": {
+        "experiencePart": {
+            "first": "Year",
+            "second": {
+                "part1": "Conducted",
+                "part2": "Lessons"
+            },
+            "third": "Graduates"
+        },
+        "choosenPart": {
+            "title": "We are chosen by the best students"
+        }
+    },
+    "teachers": {
+        "title": "Take your first step into the big and exciting world of programming!",
+        "subTitle": "Our Creative Team",
+        "rightPartText": "Teachers Page"
+    },
+    "recomandations": {
+        "title": "Recommendations and Reviews",
+        "subTitle": "Recommendations and Reviews"
+    },
+    "footer": {
+        "gallery": "our gallery",
+        "followUs": "Follow Us",
+        "map": "google map"
+    },
+    "allCourses": "all courses"
+}

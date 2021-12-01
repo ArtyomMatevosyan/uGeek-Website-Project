@@ -1,0 +1,126 @@
+.ourTeam{
+    position: relative;
+}
+.ourTeamText{
+    width: 640px;
+    height: 65px;
+    background-color: chocolate;
+    margin-top: 110px;
+    margin-left: 8.3%;
+}
+.teachersDiv{
+    width: 207px;
+    height: 70px;
+    position: absolute ;
+    right: 120px;
+    bottom: 0px;
+}
+.teacherPage{
+    width: 187px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #F49A0D;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.teachersDivSquare{
+    width: 50px;
+    height: 50px;
+    background: #F49A0D;
+    position: absolute;
+    right: 0; 
+    border-radius: 5px;
+}
+.teacherPage p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F49A0D;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width:1100px){
+    .teachersDiv{
+    right: 105px;
+    }
+    .teacherPage{
+        width: 167px;
+        left: 15px;
+        bottom: 5px;
+        left: 20px;
+    }
+    .teachersDivSquare{
+        width: 45px;
+        height: 45px;
+    }
+    .teacherPage p{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .teachersDiv{
+        right: 65px;
+        top: -5px;
+    }
+    .teacherPage{
+        width: 130px;
+        height: 35px;
+        bottom: 25px;
+        left: 60px;
+        border-radius: 5px;
+    }
+    .teachersDivSquare{
+        width: 35px;
+        height: 35px;
+    }
+    .teacherPage p{
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width:768px){
+    .teachersDiv{
+        width: 110px;
+        right: 55px;
+    }
+    .teacherPage{
+        width: 100px;
+        height: 25px;
+        top: 5px;
+        left: 5px;
+        border-radius: 5px;
+    }
+    .teachersDivSquare{
+        width: 20px;
+        height: 20px;
+    }
+    .teacherPage p{
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 11px;
+    }
+}
+@media screen and (max-width:560px){
+    .teachersDiv{
+        right: 45px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .teachersDiv{
+        right: 35px;
+    }
+}
+@media screen and (max-width:375px){
+    .teachersDiv{
+        right: 29px;
+    }
+}

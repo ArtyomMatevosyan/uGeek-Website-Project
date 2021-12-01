@@ -1,0 +1,135 @@
+.opinionCard{
+    width: 500px;
+    height: 276px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+}
+.user{
+    width: 90px;
+    height: 90px;
+}
+.userImg{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.img{
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.userDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.userName{
+    width: auto;
+    height: 20px;
+    font-weight: bold;
+    color: #2F0D46;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.opinionText{
+    max-width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #2F0D46;
+}
+.stars{
+    width: 150px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@media screen and (max-width: 1024px){
+    .opinionCard{
+        width: 400px;
+        height: 246px;
+    }
+}
+@media screen and (max-width: 768px){
+    .opinionCard{
+        width: 300px;
+        height: 206px;
+        align-items: center;
+    }
+    .userDiv{
+        height: 180px;
+        
+    }
+    .userImg{
+        width: 60px;
+        height: 60px;
+        margin-left: 15px;
+    }
+    .userName{
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: bold;
+    }
+    .opinionText p{
+        font-size: 16px;
+        line-height: 21px;
+    }    
+    .opinionText{
+        max-width: 280px;
+        margin-top: -8px;
+    }
+    .stars img{
+        width: 15px;
+        height: 15px;
+    }
+}
+@media screen and (max-width: 550px){
+    .opinionCard{
+        width: 270px;
+        height: 178px;
+        align-items: center;
+    }
+    .userDiv{
+        height: 170px;
+    }
+    .userImg{
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .userName{
+        margin-top: -20px;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: bold;
+    }
+    .opinionText p{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+    }    
+    .opinionText{
+        max-width: 220px;
+        margin-top: -8px;
+    }
+    .stars{
+        width: 100px;
+    }
+    .stars img{
+        width: 10px;
+        height: 10px;
+    }
+}

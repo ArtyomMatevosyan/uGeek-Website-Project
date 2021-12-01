@@ -1,0 +1,73 @@
+.div{
+    width: 100%;
+    position: relative;
+}
+.eclips{
+    position: absolute;
+    top: 110px;
+}
+.eclips2{
+    position: absolute;
+    top: 165px;
+}
+.slide{
+    margin-top: 78px;
+    height: 500px;
+}
+.mediaEclips1{
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    width: 20px;
+    display: none;
+}
+.mediaEclips2{
+    position: absolute;
+    right: 0px;
+    top: -40px;
+    width: 20px;
+    display: none;
+}
+.mediaEclips1 img, .mediaEclips2 img{
+    height: 63px;
+}
+@media screen and (max-width:1220px){
+    .eclips, .eclips2{
+        width: 65px;
+        height: 200px;
+    }
+    .eclips img, .eclips2 img{
+        height: 200px;
+    }
+}
+@media screen and (max-width:900px){
+    .eclips, .eclips2{
+        width: 50px;
+    }
+    .eclips img, .eclips2 img{
+        height: 170px;
+    }
+  }
+  @media screen and (max-width: 768px){
+      .slide{
+          height: 400px;
+      }
+  }
+  @media screen and (max-width:630px){
+      .slide{
+          margin-top: 25px;
+      }
+  }
+  @media screen and (max-width: 425px){
+    .slide{
+        height: 170px;
+    }
+    .mediaEclips1, .mediaEclips2{
+        display: block;
+    }
+}
+@media screen and (max-width: 375px){
+    .slide{
+        height: 130px;
+    }
+}

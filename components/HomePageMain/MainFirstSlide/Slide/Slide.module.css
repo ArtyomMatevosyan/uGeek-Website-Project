@@ -1,0 +1,253 @@
+.title {
+    width: auto;
+    height: auto;
+    max-height: 28px;
+    position: absolute;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #F49A0D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text {
+    max-width: 448px;
+    position: absolute;
+    top: 337px;
+    left: 18.4%;
+    color: white;
+    font-size: 21px;
+    line-height: 24.61px;
+    font-weight: 400;
+}
+
+.img {
+    width: 370px;
+    height: 410px;
+    position: absolute;
+    left: 57%;
+    top: 148px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: all 0.5s linear;
+    z-index: 10;
+}
+.titleDiv{
+    max-width: 448px;
+    height: 50px;
+    position: relative;
+    top: 269px;
+    left: 18%;
+    display: flex;
+    justify-content: center;
+}
+
+.activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.lastSlide {
+    transform: translateX(-100%);
+}
+
+.nextSlide {
+    transform: translateX(100%);
+}
+
+@media screen and (max-width: 1220px) {
+    .img {
+        width: 340px;
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .img {
+        width: 290px;
+        height: 320px;
+        margin-left: 50px;
+        top: 200px;
+    }
+    .title {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .text {
+        font-size: 20px;
+        line-height: 21.61px;
+        margin-left: -10px;
+        margin-right: 5px;
+        max-width: 400px;
+    }
+    .titleDiv{
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .img {
+        width: 240px;
+        height: 270px;
+        margin-left: 50px;
+        top: 200px;
+    }
+    .title {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .text {
+        font-size: 17px;
+        line-height: 20px;
+        margin-left: -10px;
+        margin-right: 5px;
+        max-width: 370px;
+    }
+    .titleDiv{
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img {
+        width: 200px;
+        height: 230px;
+        margin-left: 50px;
+        top: 220px;
+    }
+    .title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .text {
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: -10px;
+        margin-right: 5px;
+        max-width: 290px;
+        top: 307px;
+    }
+    .titleDiv{
+        left: 17%;
+        max-width: 290px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .img {
+        width: 170px;
+        height: 200px;
+        margin-left: 30px;
+        top: 220px;
+    }
+    .title {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .text {
+        font-size: 11px;
+        line-height: 18px;
+        margin-left: -10px;
+        margin-right: 5px;
+        max-width: 240px;
+        top: 307px;
+    }
+    .titleDiv{
+        max-width: 220px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .img {
+        width: 140px;
+        height: 160px;
+        margin-left: 30px;
+        top: 240px;
+    }
+    .title {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .text {
+        font-size: 9px;
+        line-height: 18px;
+        margin-left: -15px;
+        margin-right: 5px;
+        max-width: 220px;
+        top: 307px;
+    }
+    .titleDiv{
+        left: 14%;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .img {
+        width: 120px;
+        height: 125px;
+        margin-left: 10px;
+        top: 110px;
+    }
+    .title {
+        line-height: 14px;
+    }
+    .text {
+        font-size: 10px;
+        line-height: 12px;
+        font-weight: normal;
+        margin-right: 5px;
+        max-width: 135px;
+        top: 150px;
+    }
+    .titleDiv{
+        height: 35px;
+        max-width: 120px;
+        top: 110px;
+    }
+}
+@media screen and (max-width:375px){
+    .img{
+        top: 95px;
+    }
+    .text{
+        top: 147px;
+    }
+    .titleDiv{
+        height: 35px;
+        max-width: 130px;
+        top: 109px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .img {
+        width: 106px;
+        height: 102px;
+        margin-left: 10px;
+        top: 45px;
+    }
+    .title {
+        line-height: 14px;
+    }
+    .text {
+        margin-left: -10px;
+        margin-right: 5px;
+        max-width: 135px;
+        top: 85px;
+    }
+    .titleDiv{
+        height: 35px;
+        max-width: 130px;
+        top: 63px;
+    }
+}

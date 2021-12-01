@@ -1,0 +1,552 @@
+.courseHero {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+
+.courseHero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.courseInfo {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 160px;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.mounth {
+    width: 270px;
+    height: 53px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    position: relative;
+}
+
+.price {
+    width: 330px;
+    height: 53px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    position: relative;
+}
+
+.course {
+    width: 390px;
+    height: 53px;
+    background-color: #fff;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    position: relative;
+}
+
+.leftBorderDiv {
+    width: 5px;
+    height: 53px;
+    background: #F49A0D;
+    border: 2px solid #F49A0D;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+}
+
+.text {
+    width: auto;
+    height: 28px;
+    margin-left: 20px;
+    margin-top: 12px;
+    text-transform: capitalize;
+    color: #54187D;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.titleDiv {
+    width: 412px;
+    height: 523px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 160px;
+    left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 1px 2px 10px rgba(47, 13, 70, 0.3);
+    border-radius: 10px;
+}
+
+.courseImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F49A0D;
+}
+
+.courseImg img {
+    width: 90%;
+    height: 90%;
+}
+
+.title {
+    width: auto;
+    height: 35px;
+    text-transform: capitalize;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+    color: #54187D;
+    text-align: center;
+}
+
+.timeSelect {
+    width: 260px;
+    height: 60px;
+    border: 1px solid #F49A0D;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.register {
+    width: 260px;
+    height: 60px;
+    background-color: #F49A0D;
+    margin-top: -45px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130.2%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
+
+.imgBackground {
+    width: 100%;
+    height: 500px;
+    background: url('/static/images/course.png'), #C4C4C4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 0px 0px 0px 20px; */
+    position: absolute;
+    /* right: 0; */
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background: rgba(47, 13, 70, 0.6);
+    /* border-radius: 0px 0px 0px 20px; */
+}
+
+.textSpan {
+    color: #F49A0D;
+    margin-right: 2px;
+}
+
+.courseInfoMedia {
+    width: 720px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 600px;
+    bottom: -105px;
+}
+
+.courseInfoMediaDiv {
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mounthMedia, .priceMedia, .courseMedia {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 1px 5px rgba(47, 13, 70, 0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    text-transform: capitalize;
+    color: #F49A0D;
+    text-align: center;
+}
+
+.mounthMedia p, .priceMedia p, .courseMedia p {
+    color: #54187D;
+    margin-top: 3px;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.mounthMedia div, .priceMedia div, .courseMedia div {
+    max-width: 105px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:1350px) {
+    .titleDiv {
+        width: 350px;
+        height: 423px;
+    }
+    .mounthMedia, .priceMedia, .courseMedia {
+        width: 175px;
+        height: 175px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .mounthMedia p, .priceMedia p, .courseMedia p {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .courseInfoMedia {
+        width: 600px;
+        left: 540px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .titleDiv {
+        width: 300px;
+        height: 353px;
+        top: 224px;
+    }
+    .courseImg {
+        width: 100px;
+        height: 100px;
+    }
+    .register, .timeSelect {
+        width: 210px;
+        height: 50px;
+    }
+    .register {
+        margin-top: -10px;
+    }
+    .mounthMedia, .priceMedia, .courseMedia {
+        width: 155px;
+        height: 155px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .mounthMedia p, .priceMedia p, .courseMedia p {
+        font-size: 21px;
+        line-height: 26px;
+    }
+    .courseInfoMedia {
+        width: 500px;
+        left: 480px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .imgBackground {
+        height: 380px;
+    }
+    .titleDiv {
+        width: 260px;
+        height: 313px;
+        top: 160px;
+        left: 40px;
+    }
+    .mounthMedia, .priceMedia, .courseMedia {
+        width: 125px;
+        height: 125px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .mounthMedia p, .priceMedia p, .courseMedia p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .courseInfoMedia {
+        width: 400px;
+        left: 340px;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .imgBackground {
+        height: 300px;
+    }
+    .titleDiv {
+        width: 260px;
+        height: 313px;
+        top: 90px;
+        left: 40px;
+    }
+    .mounthMedia, .priceMedia, .courseMedia {
+        width: 125px;
+        height: 125px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .mounthMedia p, .priceMedia p, .courseMedia p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .courseInfoMedia {
+        width: 100%;
+        left: 0;
+        bottom: -100px;
+    }
+    .courseInfoMediaDiv {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .courseHero{
+        height: 420px;
+    }
+    .imgBackground {
+        height: 300px;
+    }
+    .titleDiv {
+        width: 200px;
+        height: 250px;
+        top: 90px;
+        left: 40px;
+    }
+    .courseImg {
+        width: 85px;
+        height: 85px;
+    }
+    .title {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .register, .timeSelect {
+        width: 150px;
+        height: 40px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        border-radius: 5px;
+        margin-top: 0;
+    }
+    .mounthMedia, .priceMedia, .courseMedia {
+        width: 90px;
+        height: 90px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .mounthMedia p, .priceMedia p, .courseMedia p {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .courseInfoMedia {
+        width: 100%;
+        left: 0;
+        bottom: -100px;
+    }
+    .courseInfoMediaDiv {
+        width: 70%;
+        height: 125px;
+    }
+}
+@media screen and (max-width:425px){
+    .imgBackground {
+        height: 270px;
+    }
+    .titleDiv{
+        width: 180px;
+    }
+    .courseImg {
+        width: 60px;
+        height: 60px;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .timeSelect, .register{
+        margin-top: -10px;
+    }
+    .courseInfoMediaDiv {
+        width: 80%;
+    }
+}
+@media screen and (max-width:375px){
+    .imgBackground {
+        height: 240px;
+    }
+    .titleDiv{
+        left: 26px;
+    }
+    .courseInfoMediaDiv {
+        width: 85%;
+    }
+}
+@media screen and (max-width:320px){
+    .imgBackground {
+        height: 200px;
+    }
+    .titleDiv{
+        left: 15px;
+    }
+    .courseInfoMediaDiv {
+        width: 90%;
+    }
+}
+
+/* @media screen and (max-width:950px) {
+    .courseHero {
+        height: 580px;
+    }
+    .titleDiv {
+        width: 300px;
+        height: 400px;
+        left: -150px;
+        top: 115px;
+        box-shadow: 0px 1px 4px rgba(47, 13, 70, 0.3);
+        border-radius: 10px;
+    }
+    .imgBackground {
+        height: 580px;
+    }
+    .mounth {
+        width: 180px;
+    }
+    .course {
+        width: 300px;
+    }
+    .price {
+        width: 240px;
+    }
+    .text {
+        font-size: 22px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .mounth, .course, .price {
+        display: none;
+    }
+    .courseHero {
+        width: 100%;
+    }
+    .imgBackground {
+        height: 360px;
+        border-radius: 0px 0px 0px 5px;
+    }
+    .titleDiv {
+        width: 270px;
+        height: 300px;
+        left: 45px;
+        top: 130px;
+    }
+    .courseImg {
+        width: 85px;
+        height: 85px;
+    }
+    .title {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .timeSelect, .register {
+        width: 180px;
+        border-radius: 5px;
+    }
+    .register {
+        font-size: 17px;
+    }
+    .courseInfoMedia {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .courseHero{
+        height: 490px;
+    }
+    .courseInfoMedia {
+        height: 110px;
+    }
+    .courseInfoMediaDiv {
+        width: 80%;
+        height: 95px;
+    }
+    .mounthMedia, .priceMedia, .courseMedia {
+        width: 95px;
+        height: 95px;
+    }
+    .mounthMedia p, .priceMedia p, .courseMedia p {
+        font-size: 14px;
+    }
+    .titleDiv {
+        width: 180px;
+        height: 249px;
+        top: 90px;
+    }
+    .courseImg {
+        width: 60px;
+        height: 60px;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .timeSelect, .register {
+        width: 150px;
+        height: 40px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .imgBackground {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .courseInfoMediaDiv {
+        width: 95%;
+    }
+} */

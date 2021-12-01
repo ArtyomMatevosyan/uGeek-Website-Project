@@ -1,0 +1,118 @@
+.opinionDiv{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.opinion{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}   
+.eclips{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.eclips2{
+    position: absolute;
+    top: -40px;
+    right: 0;  
+}
+.circles{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.circle2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: indigo;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.opinionSlide{
+    width: 1000px;
+    height: 550px;    
+    position: relative;
+}
+
+@media screen and (max-width:1220px){
+    .eclips, .eclips2{
+        width: 65px;
+        height: 200px;
+    }
+    .eclips img, .eclips2 img{
+        height: 200px;
+    }
+  }
+  @media screen and (max-width:1024px){
+    .opinionSlide{
+        width: 900px;
+    }
+  }
+@media screen and (max-width:900px){
+    .eclips, .eclips2{
+        width: 50px;
+    }
+    .eclips img, .eclips2 img{
+        height: 170px;
+    }
+}
+@media screen and (max-width: 768px){
+    .eclips, .eclips2{
+        width: 40px;
+    }
+    .eclips img, .eclips2 img{
+        height: 110px;
+    }
+    .eclips {
+        top: 40px;
+    }
+    .eclips2{
+        top: 10px;
+    }
+    .opinionSlide{
+        width: 660px;
+        height: 310px;
+    }
+}
+@media screen and (max-width: 550px){
+    .opinionSlide{
+        width: 480px;
+        height: 180px;
+    }
+    .opinionDiv{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 425px){
+    .eclips, .eclips2{
+        width: 20px;
+    }
+    .eclips img, .eclips2 img{
+        height: 63px;
+    }
+    .eclips{
+        top: 80px;
+    }
+    .eclips2{
+        top: 100px;
+    }
+    .opinionDiv{
+        margin-top: 25px;
+    }
+}

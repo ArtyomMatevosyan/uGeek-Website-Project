@@ -1,0 +1,39 @@
+.search{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.stickySearch {
+    border-bottom: 1px solid #2F0D46;
+}
+
+.search_input{
+    width: 220px;
+    height: 40px;
+    background: transparent;
+    margin-left: 5px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.search_input::placeholder { 
+    color: white;
+    opacity: 1;
+}
+
+.sticky {
+    color: #2F0D46;
+}
+
+.sticky::placeholder {
+    color: #2F0D46;
+}
+
+@media screen and (max-width:1220px){
+    .search{
+        width: 200px;
+    }
+}

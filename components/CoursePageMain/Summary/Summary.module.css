@@ -1,0 +1,376 @@
+.summary{
+    width: 84%;
+    height: 760px;
+    margin: 150px auto auto auto;
+}
+.title{
+    width: 600px;
+    height: 85px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #54187D;
+    position: relative;
+    top: 200px;
+    transition: top .4s linear;
+}
+
+.title_animated {
+    top: 0;
+}
+
+.information{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    position: relative;
+}
+.bgDiv{
+    width: 36%;
+    height: 100%;
+    background-color: #F7F3FA;;
+}
+.info{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    position: absolute;
+}
+
+.div1{
+    width: 551px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #54187D;
+    top: 150px;
+    transition: top .4s linear;
+}
+.div1_animated {
+    top: 30px;
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+    background-color: #F49A0D;
+    border-radius: 3px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.text{
+    max-width: 492px;
+}
+.div2{
+    width: 551px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    position: absolute;
+    left: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #54187D;
+    top: 150px;
+    transition: top .4s linear;
+}
+
+.div2_animated {
+    top: 30px;
+}
+
+.div3{
+    width: 551px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin-top: 324px;
+    position: absolute;
+    left: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #54187D;
+    top: 150px;
+    transition: top .4s linear;
+}
+.div3_animated {
+    top: 30px;
+}
+.div4{
+    width: 551px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin-top: 461px;
+    position: absolute;
+    left: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #54187D;
+    top: 150px;
+    transition: top .4s linear;
+}
+.div4_animated {
+    top: 30px;
+}
+.div4 p{
+    margin-top: 45px;
+}
+
+.div5{
+    width: 551px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #54187D;
+    top: 150px;
+    transition: top .4s linear;
+}
+.div5_animated {
+    top: 30px;
+}
+
+.square2{
+    width: 20px;
+    height: 20px;
+    background-color: #F49A0D;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.text2{
+    max-width: 492px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.div6{
+    width: 551px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    position: absolute;
+    right: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #54187D;
+    top: 150px;
+    transition: top .4s linear;
+}
+
+.div6_animated {
+    top: 30px;
+}
+
+.div6 p{
+    margin-top: 100px;
+}
+.div7{
+    width: 551px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin-top: 324px;
+    position: absolute;
+    right: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #54187D;
+    top: 150px;
+    transition: top .4s linear;
+}
+.div7_animated {
+    top: 30px;
+}
+.div7 p{
+    margin-top: 75px;
+}
+.div8{
+    width: 551px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin-top: 461px;
+    position: absolute;
+    right: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #54187D;
+    top: 150px;
+    transition: top .4s linear;
+}
+.div8_animated {
+    top: 30px;
+}
+.div8 p{
+    margin-top: 35px;
+}
+.span{
+    display: block;
+}
+
+@media screen and (max-width: 1440px){
+    .bgDiv{
+        width: 32%;
+    }
+    p.text{
+        font-size: 20px;
+    }
+    p.text2{
+        font-size: 20px;
+    }
+    .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8{
+        width: 490px;
+    }
+    
+}
+@media screen and (max-width: 1300px){
+    p.text{
+        font-size: 18px;
+    }
+    p.text2{
+        font-size: 18px;
+    }
+    .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8{
+        width: 450px;
+    }
+    .text{
+        width: 430px;
+    }
+}
+@media screen and (max-width: 1180px){
+    p.text, p.text2{
+        font-size: 17px;
+    }
+
+    .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8{
+        width: 380px;
+        line-height: 95%;
+    }
+    .text{
+        width: 360px;
+    }
+}
+@media screen and (max-width:960px){
+    .summary{
+        margin-top: 90px;
+    }
+    .title{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .title_animated{
+        top: 55px;
+    }
+    .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8{
+        width: 330px;
+    }
+    .text{
+        width: 300px;
+    }
+}
+@media screen and (max-width:845px){
+    .information{
+        margin-top: 80px;
+    }
+    p.text, p.text2{
+        font-size: 15px;
+    }
+    .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8{
+        width: 280px;
+        line-height: 80%;
+    }
+    .text{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 720px){
+    .summary{
+        height: 700px;
+        margin-top: 50px;
+    }
+    .text,.text2{
+        width: 540px;
+        max-width: 540px;
+    }
+    .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8{
+        width: 100%;
+    }
+    .div1_animated{
+        top: 0;
+    }
+    .div1 p{
+        margin-top:-7px;
+    }
+    .div2_animated{
+        top: -10px;
+        background-color: aqua;
+    }
+    .div3_animated{
+        top: -15px;
+        background-color: cadetblue;
+    }
+    .div4_animated{
+        background-color: coral;
+        top: -5px;
+    }
+    .div4 p{
+        margin-top: 10px;
+    }
+    .div5_animated{
+        top: 60px;
+    }
+    .div5 p{
+        margin-top: 10px;
+    }
+    .div6_animated{
+        top: 50px;
+    }
+    .div6 p{
+        margin-top: 50px;
+    }
+    .div7_animated{
+        top: 60px;
+    }
+    .div7 p{
+        margin-top: 10px;
+    }
+    .div8_animated{
+        top: 70px;
+    }
+    .div8 p {
+        margin-top: 0;
+    }
+}

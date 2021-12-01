@@ -1,0 +1,116 @@
+.reviews{
+    position: relative;
+}
+.allCoursesDiv{
+    width: 207px;
+    height: 70px;
+    position: absolute ;
+    right: 120px;
+    top: 0;
+}
+.coursesDivSquare{
+    width: 50px;
+    height: 50px;
+    background: #F49A0D;
+    position: absolute;
+    right: 0; 
+    border-radius: 5px;
+}
+.coursesPage{
+    width: 187px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #F49A0D;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #2F0D46; 
+}
+@media screen and (max-width:1100px){
+    .allCoursesDiv{
+    right: 105px;
+    }
+    .coursesPage{
+        width: 167px;
+        left: 15px;
+        bottom: 5px;
+        left: 20px;
+    }
+    .coursesDivSquare{
+        width: 45px;
+        height: 45px;
+    }
+    .coursesPage p{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .allCoursesDiv{
+        right: 65px;
+        top: -5px;
+    }
+    .coursesPage{
+        width: 130px;
+        height: 35px;
+        bottom: 25px;
+        left: 60px;
+        border-radius: 5px;
+    }
+    .coursesDivSquare{
+        width: 35px;
+        height: 35px;
+    }
+    .coursesPage p{
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width:768px){
+    .allCoursesDiv{
+        width: 110px;
+        right: 55px;
+    }
+    .coursesPage{
+        width: 100px;
+        height: 25px;
+        top: 5px;
+        left: 5px;
+        border-radius: 5px;
+    }
+    .coursesDivSquare{
+        width: 20px;
+        height: 20px;
+    }
+    .coursesPage p{
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 11px;
+    }
+}
+@media screen and (max-width:560px){
+    .allCoursesDiv{
+        right: 45px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .allCoursesDiv{
+        right: 35px;
+    }
+}
+@media screen and (max-width:375px){
+    .allCoursesDiv{
+        right: 29px;
+    }
+}

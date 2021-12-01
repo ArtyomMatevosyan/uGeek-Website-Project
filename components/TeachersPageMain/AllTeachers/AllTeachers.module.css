@@ -1,0 +1,52 @@
+.allTeachers{
+    width: 84%;
+    height: auto;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.select{
+    width: 250px;
+    height: 50px;
+    border-bottom: 1px solid #2F0D46;
+    background-color: greenyellow;
+}
+.teachersDiv{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teacherCard{
+    width: 315px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+}
+.teacherCard > *{
+    margin-left: 0;
+
+}
+
+@media (max-width: 810px) {
+    .teacherCard {
+        width: 45%;
+    }
+}
+
+@media (max-width: 660px) {
+    .teacherCard {
+        width: 80%;
+    }
+
+    .allTeachers {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 510px) {
+    .teacherCard {
+        width: 100%;
+    }
+}

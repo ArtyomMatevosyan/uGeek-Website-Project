@@ -1,0 +1,611 @@
+.card {
+    width: 243px;
+    height: 312px;
+    background-color: #FAF4FF;
+    position: relative;
+    margin-left: 40px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all .2s linear;
+}
+
+.share {
+    position: absolute;
+    top: 16px;
+    left: 193px;
+    cursor: pointer;
+}
+
+.smallEclips {
+    position: absolute;
+    top: 46px;
+}
+
+.smallEclips2 {
+    position: absolute;
+    top: 81px;
+}
+
+.lessonType {
+    width: 80px;
+    height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    left: 81px;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    cursor: pointer;
+}
+
+.lessonType img {
+    max-width: 75px;
+    max-height: 75px;
+    background-size: cover;
+}
+
+.lesson_title {
+    height: 42px;
+    width: 100%;
+    max-width: 242px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 110px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lesson_duration {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 25px;
+    top: 192px;
+}
+
+.lesson_durationText {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #614970;
+}
+
+.price {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: #AB30FC;
+    font-family: sans-serif;
+}
+
+.lesson_price {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 223px;
+    left: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.lesson_type {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 253px;
+    left: 25px;
+}
+
+.course {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: #614970;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.registerDiv {
+    display: none;
+    width: 170px;
+    height: 110px;
+    position: absolute;
+    bottom: 40px;
+    left: 36px;
+}
+
+.time {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #614970;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #614970;
+}
+
+.register {
+    width: 100%;
+    height: 50px;
+    background-color: #AB30FC;
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+/* .s {
+
+    display: flex;
+}
+
+.s2 {
+    width: auto;
+    height: auto;
+    background-color: lawngreen;
+} */
+
+/* .card:hover {
+    transform: scale(1.18);
+} */
+
+.cardHoveredMobile {
+    transform: scale(1.18);
+}
+
+@media (hover: hover) {
+    .card:hover {
+        transform: scale(1.18);
+    }
+}
+
+.card:hover .lesson_info {
+    display: none;
+}
+
+.card:hover .registerDiv {
+    display: block;
+}
+
+@media screen and(max-width:1550px) {
+    .card {
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .card {
+        width: 220px;
+        height: 290px;
+    }
+    .share {
+        width: 20px;
+        height: 20px;
+        left: 183px;
+    }
+    .share img {
+        width: 20px;
+        height: 20px;
+    }
+    .lessonType {
+        width: 60px;
+        height: 60px;
+        max-width: 60px;
+        max-height: 60px;
+        top: 20px;
+    }
+    .lessonType img {
+        max-width: 55px;
+        max-height: 55px;
+        background-size: cover;
+    }
+    .lesson_title {
+        top: 80px;
+    }
+    
+    .lesson_duration {
+        top: 172px;
+        left: 22px;
+    }
+    .lesson_price {
+        top: 203px;
+        left: 22px;
+    }
+    .lesson_type {
+        top: 233px;
+        left: 22px;
+    }
+    .registerDiv {
+        width: 160px;
+        height: 100px;
+        left: 30px;
+    }
+    .register {
+        height: 45px;
+        font-size: 14px;
+    }
+    .time {
+        width: 95%;
+        height: 45px;
+        margin-left: 4px;
+    }
+}
+
+/* @media screen and (max-width:768px) {
+    .card {
+        width: 180px;
+        height: 234px;
+        margin-left: 30px;
+        border-radius: 20px;
+    }
+    .smallEclips{
+        left: -5px;
+    }
+    .smallEclips2{
+        left: -5px;
+    }
+    .smallEclips img{
+        width: 40px;
+        height: 80px;
+    }
+    .smallEclips2 img{
+        width: 40px;
+        height: 80px;
+    }
+    .share {
+        width: 17px;
+        height: 17px;
+        left: 148px;
+    }
+    .share img {
+        width: 17px;
+        height: 17px;
+    }
+    .lessonType {
+        width: 50px;
+        height: 50px;
+        max-width: 50px;
+        max-height: 50px;
+        top: 17px;
+        left: 65px;
+    }
+    .lessonType img {
+        max-width: 45px;
+        max-height: 45px;
+        background-size: cover;
+    }
+    .lesson_title {
+        top: 75px;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    .lesson_duration {
+        top: 142px;
+        left: 5px;
+    }
+    .durationImg img{
+        width: 16px;
+        height: 16px;
+    }
+    .lesson_durationText{
+        margin-left: 8px;
+        margin-bottom: 4px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .lesson_price {
+        top: 170px;
+        left: 5px;
+    }
+    .wallet img{
+        width: 16px;
+        height: 16px;
+    }
+    .price{
+        margin-left: 8px;
+        margin-bottom: 4px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .lesson_type {
+        top: 193px;
+        left: 5px;
+    }
+    .typeImg img{
+        width: 16px;
+        height: 16px;
+    }
+    .course{
+        margin-left:8px;
+        margin-bottom: 4px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .registerDiv {
+        width: 130px;
+        height: 100px;
+        left: 25px;
+    }
+    .register {
+        height: 35px;
+        font-size: 12px;
+    }
+    .time {
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+} */
+@media screen and (max-width:768px) {
+    .card {
+        width: 180px;
+        height: 234px;
+        border-radius: 20px;
+        margin-left: 25px;
+    }
+    .smallEclips{
+        left: -5px;
+        top: 26px;
+    }
+    .smallEclips2{
+        left: -5px;
+        top: 55px;
+    }
+    .smallEclips img{
+        width: 30px;
+        height: 70px;
+    }
+    .smallEclips2 img{
+        width: 30px;
+        height: 70px;
+    }
+    .share {
+        width: 20px;
+        height: 20px;
+        left: 150px;
+        top: 11px;
+    }
+    .share img {
+        width: 20px;
+        height: 20px;
+    }
+    .lessonType {
+        width: 60px;
+        height: 60px;
+        max-width: 60px;
+        max-height: 60px;
+        top: 20px;
+        left: 60px;
+    }
+    .lessonType img {
+        max-width: 55px;
+        max-height: 55px;
+        background-size: cover;
+    }
+    .lesson_title {
+        top: 80px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px
+    }
+    .lesson_duration {
+        top: 142px;
+        left: 10px;
+    }
+    .durationImg img{
+        width: 14px;
+        height: 14px;
+    }
+    .lesson_durationText{
+        margin-left: 8px;
+        margin-bottom: 0px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .lesson_price {
+        top: 170px;
+        left: 10px;
+    }
+    .wallet img{
+        width: 14px;
+        height: 14px;
+    }
+    .price{
+        margin-left: 8px;
+        margin-bottom: 2px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .lesson_type {
+        top: 190px;
+        left: 10px;
+    }
+    .typeImg img{
+        width: 14px;
+        height: 14px;
+    }
+    .course{
+        margin-left: 8px;
+        margin-bottom: 2px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .registerDiv {
+        width: 100px;
+        height: 100px;
+        left: 25px;
+        bottom: 30px;
+    }
+    .register {
+        font-size: 11px;
+    }
+    .time {
+        padding-top: 15px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
+
+    /* @media screen and (max-width:425px) {
+        .card {
+            width: 110px;
+            height: 140px;
+            border-radius: 10px;
+            margin-left: 20px;
+        }
+        .smallEclips{
+            left: -5px;
+            top: 26px;
+        }
+        .smallEclips2{
+            left: -5px;
+            top: 55px;
+        }
+        .smallEclips img{
+            width: 30px;
+            height: 70px;
+        }
+        .smallEclips2 img{
+            width: 30px;
+            height: 70px;
+        }
+        .share {
+            width: 10px;
+            height: 10px;
+            left: 93px;
+            top: 8px;
+        }
+        .share img {
+            width: 10px;
+            height: 10px;
+        }
+        .lessonType {
+            width: 40px;
+            height: 40px;
+            max-width: 40px;
+            max-height: 40px;
+            top: 10px;
+            left: 35px;
+        }
+        .lessonType img {
+            max-width: 35px;
+            max-height: 35px;
+            background-size: cover;
+        }
+        .lesson_title {
+            top: 43px;
+            font-size: 8px;
+            line-height: 9px;
+            font-weight: 700;
+        }
+        .lesson_duration {
+            top: 75px;
+            left: 7px;
+        }
+        .durationImg img{
+            width: 10px;
+            height: 10px;
+        }
+        .lesson_durationText{
+            margin-left: 7px;
+            margin-bottom: 0px;
+            font-weight: 400;
+            font-size: 7px;
+            line-height: 8px;
+        }
+        .lesson_price {
+            top: 95px;
+            left: 7px;
+        }
+        .wallet img{
+            width: 10px;
+            height: 10px;
+        }
+        .price{
+            margin-left: 7px;
+            margin-bottom: 0px;
+            font-weight: 400;
+            font-size: 7px;
+            line-height: 8px;
+        }
+        .lesson_type {
+            top: 107px;
+            left: 7px;
+        }
+        .typeImg img{
+            width: 10px;
+            height: 10px;
+        }
+        .course{
+            margin-left: 7px;
+            margin-bottom: 0px;
+            font-weight: 400;
+            font-size: 7px;
+            line-height: 8px;
+        }
+        .registerDiv {
+            width: 88px;
+            height: 50px;
+            left: 12px;
+            bottom: 10px;
+        }
+        .register {
+            font-size: 11px;
+            height: 25px;
+            font-size: 10px;
+            line-height: 12px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+        .time {
+            height: 20px;
+            margin-top: -2px;
+            padding-top: 0;
+            font-size: 8px;
+            line-height: 9px;
+        }
+    }
+
+    */

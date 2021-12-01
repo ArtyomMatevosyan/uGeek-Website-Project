@@ -1,0 +1,102 @@
+.reviews{
+    width: 550px;
+    height: 185px;
+    margin-left: 120px;
+    margin-top: 110px;
+    position: relative;
+}
+.smalltext{
+    position: absolute;
+    top: 26px;
+    left: 2px;
+    z-index: 5;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2F0D46;
+    font-family: sans-serif;
+}
+.bigtext{
+    position: absolute;
+    z-index: 5;
+    top: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #2F0D46;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 1220px){
+    .reviews{
+        width: 500px;
+        height: 165px;
+    }
+    .orangeDiv{
+        width: 285px;
+    }
+    .smalltext{
+        font-size: 20px;
+    }
+    .bigtext{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .reviews{
+        width: 450px;
+        height: 165px;
+    }
+    .smalltext{
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+    .bigtext{
+        font-size: 27px;
+        font-weight: bold;
+
+    }
+}
+@media screen and (max-width: 768px){
+    .reviews{
+        margin-left: 70px;
+        height: 150px;
+    }
+    .smalltext{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .bigtext{
+        font-size: 22px;
+        line-height: 36px;
+    }
+}
+@media screen and (max-width: 660px){
+    .reviews{
+        margin-left: 30px;
+        height: 110px;
+    }
+    .smalltext{
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        top: 18px;
+    }
+    .bigtext{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+        top: 30px;
+    }
+}
+@media screen and (max-width: 425px){
+    .reviews{
+        margin-left: 20px;
+        height: 80px;
+    }
+    .smalltext{
+        left: 0;
+    }
+}

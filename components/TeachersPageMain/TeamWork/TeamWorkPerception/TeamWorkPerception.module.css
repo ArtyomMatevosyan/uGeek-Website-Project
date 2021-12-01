@@ -1,0 +1,61 @@
+.main{
+    width: 600px;
+    height: 160px;
+    position: relative;
+    margin-left: 8.3%;
+    margin-top: 110px;
+}
+.text{
+    position: absolute;
+    z-index: 15;
+    left: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.teamWork{
+    margin-left: 10px;
+    color: #F49A0D;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:768px){
+    .main{
+        height: 130px;
+    }
+    .text{
+        font-size: 25px;
+        line-height: 36px;
+    }
+}
+@media screen and (max-width:660px){
+    .main{
+        height: 100px;
+    }
+    .text{
+        font-size: 19px;
+        line-height: 26px;
+    }
+}
+@media screen and (max-width:425px){
+    .main{
+        height: 70px;
+        margin-top: 0;
+    }
+    .text{
+        top: 5px;
+        left: 15px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width:375px){
+    .main{
+        margin-left: 0;
+        margin-top: -40px;
+    }
+}

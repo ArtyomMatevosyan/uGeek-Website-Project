@@ -1,0 +1,34 @@
+.div{
+    width: 30%;
+    height: 608px;
+    background-color:#54187D;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.searchDiv{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+} 
+@media screen and (max-width:650px){
+    .div{
+        height: 538px;
+    }
+}
+@media screen and (max-width:425px){
+    .div{
+        height: 310px;
+        right: 6.5px;
+    }
+}
+@media screen and (max-width: 375px){
+    .div{
+        height: 265px;
+    }
+}
+@media screen and (max-width:320px){
+    .div{
+        height: 190px;
+    }
+}
